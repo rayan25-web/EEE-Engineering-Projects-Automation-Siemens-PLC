@@ -1,34 +1,35 @@
-<MARK>Engineering & Industrial Automation Projects</MARK>
+# Engineering & Industrial Automation Projects
 
-This repository is a collection of my engineering projects, technical work, experiments, and project documentation from my Electrical and Electronics Engineering studies.
-My work covers industrial automation, PLC programming, electrical systems, control systems, electronics, MATLAB/Simulink, AutoCAD, simulation, and practical hardware projects.
-I will keep adding projects and related files as I work on them.
+This repository contains my engineering projects, practical implementations, technical experiments, and project documentation developed during my Electrical and Electronics Engineering studies.
 
+My primary area of focus is **PLC programming and industrial automation**, with hands-on work involving Siemens PLC hardware, TIA Portal, Ladder Logic, HMI, SCADA, sensors, actuators, motor control, and industrial control systems.
 
-# ⚡ Siemens Industrial Automation
+The repository also includes projects in battery health monitoring, impedance analysis, machine learning, MATLAB/Simulink, embedded systems, electrical and control engineering, AutoCAD, and SolidWorks CAD.
 
-Siemens PLCs and industrial automation are one of the main areas I am currently focusing on.
+---
 
-I have been working with Siemens software and hardware for PLC programming, simulation, HMI development, and practical automation projects.
+# Primary Focus
 
-## Siemens Software
+## PLC and Industrial Automation
+
+My main technical focus is industrial automation and PLC-based control systems.
+
+### Siemens Software
 
 - Siemens TIA Portal V20
 - Siemens PLCSIM V20
 - Siemens WinCC Advanced
-- HMI development
-- SCADA development
 - PLC hardware configuration
 - Ladder Logic programming
+- HMI development
+- SCADA development
 - PLC simulation
 
-## Siemens Hardware
-
-My practical work includes the Siemens S7-1200 platform, particularly:
+### Siemens Hardware
 
 - Siemens S7-1200 PLC
 - CPU 1214C DC/DC/DC
-- Digital inputs and outputs
+- Digital Inputs and Outputs
 - 24V DC control systems
 - Push buttons
 - Proximity sensors
@@ -37,149 +38,235 @@ My practical work includes the Siemens S7-1200 platform, particularly:
 - Actuators
 - Motor control interfaces
 
-I have worked with both simulated PLC environments and physical hardware, including wiring and testing sensors, push buttons, actuators, and other control components.
+### Industrial Automation
 
-## Industrial Automation Topics
-
-Some of the areas I am learning and working with include:
-
-- PLC programming
+- PLC Programming
 - Ladder Logic
-- Industrial control systems
-- Industrial motors
-- Variable Frequency Drives (VFDs)
-- Sensors
+- Industrial Control Systems
+- HMI and SCADA
+- Sensors and Feedback Systems
 - Actuators
-- Motor control
-- HMI / SCADA
-- Electrical control circuits
+- Motor Control
+- Variable Frequency Drives
 - Digital I/O
-- Automation simulation
-- System testing and troubleshooting
+- Electrical Control Circuits
+- Automation Simulation
+- Hardware Integration
+- System Testing and Troubleshooting
 
 ---
 
-# 🚧 Ongoing Final-Year Project
+# Projects
 
-## Automated Storage and Retrieval System (ASRS)
+The actual project files, source code, PLC programs, documentation, and supporting material are organized separately under the `Projects` directory.
+
+## Ongoing Final-Year Project
+
+### PLC-Based Automated Storage and Retrieval System
 
 **Status: Ongoing**
 
-My final-year project is a PLC-based Automated Storage and Retrieval System (ASRS).
+A miniature PLC-based Automated Storage and Retrieval System developed as my final-year engineering project.
 
-The project involves building a small automated storage system using a Siemens S7-1200 PLC along with sensors, actuators, motor control and HMI.
+The system uses a Siemens S7-1200 PLC for automated movement, position detection, storage, and retrieval operations.
 
-### Main Technologies and Hardware
+### Technologies and Hardware
 
 - Siemens S7-1200 PLC
 - CPU 1214C DC/DC/DC
-- TIA Portal V20
+- Siemens TIA Portal V20
 - Ladder Logic
-- Sensors
-- Proximity sensors
-- Limit switches
-- Actuators
-- Motor control
 - HMI
-- 24V DC control
+- Proximity Sensors
+- Limit Switches
+- Motors and Motor Drives
+- Actuator
+- 24V DC Control System
+- Digital I/O
+- Position Sensing
 
-The project is still under development. I am currently working on the hardware, PLC program, sensor integration, movement control, HMI and testing.
+### Development Areas
 
-I will add photographs, videos, PLC programs, HMI screens, wiring information and other project documentation here as the project progresses.
+- PLC program development
+- Sensor integration
+- Actuator control
+- X-axis and Y-axis movement
+- Position detection
+- Storage and retrieval sequence control
+- Motor and drive interfacing
+- HMI integration
+- Electrical wiring
+- Hardware testing
+- Troubleshooting
 
----
 
-# 📂 Other Engineering Projects
-
-This repository is not limited to PLC and automation projects. I will also be adding work from other areas of engineering.
-
-## ⚡ Electrical Engineering
-
-Electrical systems, electrical machines, control circuits and other practical electrical projects.
-
-## 🎛️ Control Systems
-
-Control-system modelling, analysis, simulation and related projects.
-
-## 💻 MATLAB / Simulink
-
-Engineering calculations, modelling, simulation and technical experiments.
-
-## 🔌 Electronics & Embedded Systems
-
-Electronic circuits, microcontrollers, sensors and hardware-based projects.
-
-## 📐 Engineering Design
-
-AutoCAD drawings, technical designs and engineering documentation.
-
-## 🔬 Research & Experimental Projects
-
-Research ideas, experiments, prototypes and other engineering work.
 
 ---
 
-# 🛠️ Software & Technologies
+# Other Engineering Projects
 
-| Software / Technology | Used For |
+## Advance Battery Health Monitoring and Prognostics Research
+
+**Status: Completed Mini-Project**
+
+A simulation-based battery health monitoring project focused on analysing battery behaviour using an equivalent electrical circuit and impedance characteristics.
+
+The battery is represented using an RC-based equivalent circuit in LTspice. Different internal resistance and capacitance values are used to represent healthy, medium, weak, and faulty battery conditions.
+
+An AC frequency sweep from **1 kHz to 50 kHz** is performed in LTspice. The resulting data is exported as CSV files and analysed using MATLAB Online for comparison and visualization. 
+
+### Technologies
+
+- LTspice
+- MATLAB Online
+- Battery Equivalent Circuit Modelling
+- RC Circuit Modelling
+- AC Frequency Analysis
+- Impedance Analysis
+- CSV Data Analysis
+- Battery State-of-Health Analysis
+
+The current project is simulation-based and provides a foundation for future hardware implementation using sensors, embedded controllers, and real-time data acquisition. :contentReference[oaicite:3]{index=3}
+
+
+
+---
+
+## Rainfall Prediction Using Machine Learning
+
+**Status: Completed Course Project**
+
+A machine-learning project focused on rainfall prediction for **Bandar Seri Begawan, Brunei**, using historical weather data from the NASA/POWER dataset.
+
+The project involved data preprocessing, feature engineering, chronological data splitting, feature ranking, PCA, machine-learning model development, model evaluation, and rainfall prediction. 
+
+### Dataset and Processing
+
+- NASA/POWER weather data
+- Historical rainfall data
+- Data preprocessing
+- Missing-value handling
+- Feature engineering
+- StandardScaler
+- Pearson correlation analysis
+- Principal Component Analysis
+
+The target variable was daily rainfall (`PRECTOTCORR`). The dataset was divided into a 1995–2020 development period and an unseen 2021–2025 testing period. 
+
+### Machine Learning Models
+
+- Decision Tree
+- Random Forest
+- XGBoost
+- Linear Regression
+- Ridge Regression
+- Gradient Boosting
+- MLP Regressor
+
+XGBoost was selected as the project's best-performing model and was evaluated on the unseen 2021–2025 dataset. 
+
+### Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- PCA
+- StandardScaler
+- Matplotlib
+- Seaborn
+- Pickle
+
+The final model and scaler were serialized into `.pkl` files, and a predictor interface was developed to accept meteorological parameters and generate rainfall predictions.
+
+---
+
+# Electrical and Control Engineering
+
+Additional engineering work covers areas related to Electrical and Electronics Engineering, including:
+
+- Electrical Systems
+- Electrical Machines
+- Control Systems
+- Electrical Control Circuits
+- Power Electronics
+- Sensors and Instrumentation
+- Motor Control
+- Embedded Systems
+- Microcontrollers
+- Engineering Simulation
+
+---
+
+# MATLAB and Simulink
+
+MATLAB and Simulink are used for engineering modelling, simulation, data analysis, and system studies.
+
+Areas of use include:
+
+- Mathematical Modelling
+- System Simulation
+- Control-System Modelling
+- Electrical System Simulation
+- Battery Analysis
+- Data Analysis
+- Engineering Calculations
+- Experimental Analysis
+
+---
+
+# Embedded Systems and Electronics
+
+Technical work involving:
+
+- Microcontrollers
+- Sensors
+- Digital and Analog Systems
+- Electronic Circuits
+- Motor Interfaces
+- Embedded Control
+- Hardware Interfacing
+
+---
+
+# Engineering Design and CAD
+
+Engineering design work includes both electrical and mechanical CAD.
+
+## AutoCAD
+
+- Electrical Drawings
+- Technical Diagrams
+- Engineering Layouts
+- System Documentation
+- Project Drawings
+
+## SolidWorks
+
+- 3D Mechanical Modelling
+- Component Design
+- Mechanical Assemblies
+- Engineering Parts
+- Product and System Modelling
+
+---
+
+# Technical Skills
+
+| Area | Technologies and Tools |
 |---|---|
-| Siemens TIA Portal V20 | PLC programming and hardware configuration |
-| Siemens PLCSIM V20 | PLC simulation |
-| Siemens WinCC Advanced | HMI / SCADA |
-| Siemens S7-1200 | Industrial PLC |
-| MATLAB | Engineering and simulation |
-| Simulink | Modelling and simulation |
-| AutoCAD | Engineering design |
-| Ladder Logic | PLC programming |
-| VFDs | Motor control |
-| Sensors | Detection and feedback |
-| Actuators | Automated movement |
+| PLC | Siemens S7-1200 |
+| PLC Programming | Ladder Logic, TIA Portal |
+| HMI / SCADA | Siemens WinCC Advanced |
+| PLC Simulation | Siemens PLCSIM |
+| Industrial Automation | Sensors, Actuators, Motors, Drives |
+| Motor Control | Motor Drivers, VFDs |
+| Engineering Simulation | MATLAB, Simulink |
+| Electrical CAD | AutoCAD |
+| Mechanical CAD | SolidWorks |
+| Battery Analysis | LTspice, MATLAB, Impedance Analysis |
+| Machine Learning | Python, Scikit-learn, XGBoost |
+| Data Analysis | Pandas, NumPy, PCA |
+| Embedded Systems | Microcontrollers, Sensors, Hardware Interfacing |
 
----
-
-# 📜 Certifications
-
-I will add my technical certifications, workshops and training certificates here as I continue building my skills.
-
----
-
-# 📸 Project Documentation
-
-Depending on the project, I may include:
-
-- Project reports
-- Technical documentation
-- PLC programs
-- TIA Portal projects
-- HMI screens
-- SCADA screens
-- Electrical diagrams
-- I/O lists
-- Hardware configuration
-- Wiring documentation
-- CAD drawings
-- MATLAB / Simulink models
-- Project photographs
-- Demonstration videos
-- Simulation results
-- Testing information
-
----
-
-# 👨‍💻 About
-
-I am an Electrical and Electronics Engineering student with an interest in industrial automation, PLC programming, electrical systems, control systems and practical engineering.
-
-At the moment, Siemens industrial automation is one of my main areas of focus. I am building my knowledge through both simulation and hands-on work with PLC hardware, sensors, actuators, motors, HMI systems and control circuits.
-
-This repository is where I keep my projects and document what I build, test and learn along the way.
-
----
-
-# 🔄 Repository Status
-
-**Active**
-
-This repository will change as I continue working on new projects and existing ones.
-
-Some projects may be completed, while others may still be under development or experimentation. The status of each project will be mentioned in its respective folder or project page.
